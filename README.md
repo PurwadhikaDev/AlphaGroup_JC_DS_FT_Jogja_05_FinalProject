@@ -135,3 +135,6 @@ Model ini hanya berlaku untuk rentang data berikut:
 ```bash
 python CSV_Baca_py.py
 
+### Dashboard Screenshot
+Dashboard_Halaman1.jpg
+Dashboard_Halaman2.jpg
