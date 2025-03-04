@@ -100,16 +100,32 @@ Analisis lengkap tersedia di notebook.
 ---
 
 ## Model Limitation
-Model ini hanya berlaku untuk rentang data berikut:
-- **Age**: 17 hingga 98 tahun
-- **Campaign**: 1 hingga 43 kali
-- **Pdays**: 0 hingga 27 atau 999 (tidak dikontak)
-- **Previous**: 0 hingga 7
-- **Poutcome**: "failure", "nonexistent", "success"
-- **Emp.var.rate**: -3.4 hingga 1.4
-- **Cons.price.idx**: 92.201 hingga -26.9
-- **Euribor3m**: 0.634 hingga 5.045
-- **Nr.employed**: 4963.6 hingga 5228.1
+Model ini hanya berlaku pada rentang data yang digunakan dalam pemodelan ini, yaitu:
+
+| Variabel          | Rentang / Kategori |
+|------------------|------------------|
+| **Age** | 17 hingga 98 tahun |
+| **Age Group** | 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80-84, 85 and more |
+| **Campaign** | 1 hingga 43 kali |
+| **Pdays** | 0 hingga 27 atau 999 = Tidak dikontak |
+| **Previous** | 0, 1, 2, 3, 4, 5, 6, 7 |
+| **Poutcome** | "failure", "nonexistent", "success" |
+| **Campaign** | Integer (jumlah kontak selama kampanye) |
+| **Anomali_cpp** | 0 = Normal, 1 = Anomali |
+| **Emp.var.rate** | -3.4 hingga 1.4 |
+| **Cons.price.idx** | 92.201 hingga -26.9 |
+| **Cons.conf.idx** | -50.8 hingga 94.767 |
+| **Euribor3m** | 0.634 hingga 5.045 |
+| **Nr.employed** | 4963.6 hingga 5228.1 |
+| **Job** | "admin.", "blue-collar", "entrepreneur", "housemaid", "management", "retired", "self-employed", "services", "student", "technician", "unemployed", "unknown" |
+| **Marital** | "divorced", "married", "single", "unknown" |
+| **Education** | "basic.4y", "basic.6y", "basic.9y", "high.school", "illiterate", "professional.course", "university.degree", "unknown" |
+| **Housing** | "no", "yes", "unknown" |
+| **Loan** | "no", "yes", "unknown" |
+| **Contact** | "cellular", "telephone" |
+| **Month** | "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec" |
+| **Day_of_week** | "mon", "tue", "wed", "thu", "fri" |
+
 
 ---
 
