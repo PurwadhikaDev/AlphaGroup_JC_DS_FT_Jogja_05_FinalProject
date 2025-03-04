@@ -136,6 +136,11 @@ Model ini hanya berlaku untuk rentang data berikut:
 python CSV_Baca_py.py
 ```
 
+### Proses Di Memasukan Test
+1. Download data X_Test1
+2. Masukan / Input lalu tekan tombol prediksi
+3. Hasil Prediksi akan berbentuk CSV terdownload otomatis
+
 ### Dashboard Screenshot
 ![Dashboard_Halaman1.jpg](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_Jogja_05_FinalProject/blob/main/Dashboard_Halaman1.jpg)
 
