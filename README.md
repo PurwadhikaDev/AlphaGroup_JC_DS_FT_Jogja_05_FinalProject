@@ -137,7 +137,7 @@ python CSV_Baca_py.py
 ```
 
 ### Dashboard Screenshot
-[Dashboard_Halaman1.jpg](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_Jogja_05_FinalProject/blob/main/Dashboard_Halaman1.jpg)
+![Dashboard_Halaman1.jpg](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_Jogja_05_FinalProject/blob/main/Dashboard_Halaman1.jpg)
 
 
-Dashboard_Halaman2.jpg
+![Dashboard_Halaman2.jpg](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_Jogja_05_FinalProject/blob/main/Dashboard_Halaman2.jpg)
