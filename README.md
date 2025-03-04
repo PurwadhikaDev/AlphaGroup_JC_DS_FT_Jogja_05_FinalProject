@@ -195,7 +195,7 @@ Buka browser, lalu masukkan alamat tersebut untuk mengakses aplikasi.
 2. Masukan / Input lalu tekan tombol prediksi
 3. Hasil Prediksi akan berbentuk CSV terdownload otomatis
 
-### Dashboard Screenshot
+## Dashboard Screenshot
 ![Dashboard_Halaman1.jpg](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_Jogja_05_FinalProject/blob/main/Dashboard_Halaman1.jpg)
 
 
