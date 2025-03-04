@@ -128,17 +128,50 @@ Model ini hanya berlaku untuk rentang data berikut:
 ---
 
 ## Deployment Lokal
-### Tahapan Deployment
-1. Simpan model dalam format `.pkl`.
-2. Buat folder `Test_Model_ML` untuk menyimpan model dan file pendukung.
-3. Buat `requirements.txt` untuk library yang dibutuhkan.
-4. Buat folder `static/` dan `templates/` untuk file CSS dan HTML.
-5. Jalankan aplikasi dengan Flask.
+1. Simpan Model Machine Learning
+Setelah melatih model, simpan model dalam format .pkl menggunakan pickle (jangan joblib, karena format dictionary model yang disimpan akan berubah jadi array).
+________________________________________
+2. Buat Folder untuk Menyimpan Model
+Buat folder baru di laptop dengan nama Test_Model_ML. Folder ini akan menyimpan model dan file lain yang dibutuhkan.
+________________________________________
+3. Buat requirements.txt
+Di dalam folder Test_Model_ML, buat file requirements.txt **(Filenya bisa didownload di GitHub ini)** ini untuk menyimpan daftar library yang dibutuhkan agar bisa diunduh dengan sekali install.
+________________________________________
+4. Buat Folder static/ dan templates/
+Masuk ke dalam folder Test_Model_ML, lalu buat dua folder tambahan:
+•	static/ → Menyimpan file CSS, JavaScript, atau gambar.
+•	templates/ → Menyimpan file HTML untuk tampilan antarmuka.
+________________________________________
+5. Simpan Model di Test_Model_ML
+Pindahkan file model yang sudah disimpan (model.pkl) ke dalam folder Test_Model_ML **(Filenya bisa didownload di GitHub ini)**.
+________________________________________
+6. Buat File CSV_Baca_py.py untuk Membaca Model dan Menjalankan Flask
+Buat file CSV_Baca_py.py di dalam folder Test_Model_ML. **(Filenya bisa didownload di GitHub ini)**.
+________________________________________
+7. Buat File HTML di Dalam templates/
+Buat file index.html di dalam folder templates/. **(Filenya bisa didownload di GitHub ini)**.
+________________________________________
+8. Simpan Semua File dan Jalankan CSV_Baca_py.py
+Buka terminal atau command prompt, lalu masuk ke folder Test_Model_ML dan jalankan:
 
-### Contoh Perintah
-```bash
+```sh
 python CSV_Baca_py.py
 ```
+
+Jika ada error library yang belum terinstall, jalankan:
+
+```sh
+pip install -r requirements.txt
+```
+________________________________________
+9. Tunggu Hingga Muncul IP Lokal dan Jalankan di Browser
+Setelah program berjalan, akan muncul alamat seperti:
+
+Running on http://127.0.0.1:5000/
+
+Buka browser, lalu masukkan alamat tersebut untuk mengakses aplikasi.
+
+
 
 ### Proses Di Memasukan Test
 1. Download data X_Test1
