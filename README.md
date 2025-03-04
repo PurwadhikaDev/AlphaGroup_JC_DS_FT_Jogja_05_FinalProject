@@ -3,8 +3,9 @@
 ## Links
 - [Dashboard](https://lookerstudio.google.com/reporting/3f25786a-fe18-41ea-9d61-16b640088ba4)
 
-  Jika anda ingin mencoba langsung prediksinya, gass kuyy di link ini:
+  Jika anda ingin mencoba langsung prediksinya, gass kuyy di link bawah ini:
 - [Streamlit](https://kelompokalpha.streamlit.app/)
+
   Jika ingin mencoba deploy manual memakai flask, ikuti langkah deploy yang berjudul Deployment Lokal diakhir pembahasan readme
   
 ## Business Understanding
