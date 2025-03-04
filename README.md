@@ -5,6 +5,7 @@
 
   **Jika anda ingin mencoba langsung prediksinya, gass kuyy di link bawah ini:**
 - [Streamlit](https://kelompokalpha.streamlit.app/)
+  - Bisa Ditest menggunkan X_test1 **(Filenya bisa didownload di GitHub ini)**.
 
   **Jika ingin mencoba deploy manual memakai flask, ikuti langkah deploy yang berjudul Deployment Lokal diakhir pembahasan readme**
   
